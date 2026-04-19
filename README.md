@@ -9,7 +9,7 @@
 
 ## 1. Project Overview
 
-### 1.1 Original Vision (from SKILL.md)
+### 1.1 Original Vision
 
 The project was conceived as a **Vietnamese-language AI chatbot** that assumes the persona of a caring shop-owner mother ("Chị/Mẹ") running a milk tea business. The bot automates the full customer lifecycle:
 
@@ -41,9 +41,9 @@ Building a production chatbot that relies on a large language model (LLM) to man
 
 ---
 
-## 2. Requirements Analysis — SKILL.md vs Actual Implementation
+## 2. Requirements Analysis
 
-### 2.1 Features Specified in SKILL.md
+### 2.1 Main Features
 
 | # | SKILL.md Requirement | Status | Implementation Notes |
 |---|---|---|---|
@@ -56,7 +56,7 @@ Building a production chatbot that relies on a large language model (LLM) to man
 | 7 | Out-of-stock handling | Done | `menu_model.get_all_items(only_available=True)` filters unavailable items. `_find_item()` returns `None` for non-existent items, triggering a polite error. |
 | 8 | Modular code with clear logging | Done | 7 Python modules: `bot/`, `llm/`, `database/`, `owner/`, `services/`, `sessions/`, `main.py`. All use Python `logging`. |
 
-### 2.2 Features NOT in SKILL.md but Implemented (from Issue_EN.txt & User Requests)
+### 2.2 Other Features
 
 These features were requested during iterative development and are **missing from SKILL.md**:
 
@@ -154,7 +154,7 @@ These features were requested during iterative development and are **missing fro
 ### 4.1 LLM Hallucination — Item ID Fabrication
 
 **Problem:** The LLM was given tool schemas with `item_id: integer`. When the user said "Bột Trà Xanh", the LLM would guess `item_id: 1` or `item_id: 27` from memory — often incorrectly. This caused:
-- Wrong items being added to carts
+- Wrong items are being added to carts
 - Failed deletions (LLM guessed wrong ID)
 - Silent data corruption
 

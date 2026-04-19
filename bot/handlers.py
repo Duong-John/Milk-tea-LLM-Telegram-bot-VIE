@@ -23,19 +23,28 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     response_text = await agent.process_user_message(user_id, text)
     
-    match = re.search(r"\[CHECKOUT_ORDER\]\s*(\d+)", response_text, re.IGNORECASE)
+    match = re.search(r"\[CHECKOUT_ORDER\]\s*([\w\d_]+)", response_text, re.IGNORECASE)
     if match:
-        order_id = int(match.group(1))
+        order_str = match.group(1).strip()
         
-        clean_text = re.sub(r"\[CHECKOUT_ORDER\]\s*\d+", "", response_text, flags=re.IGNORECASE).strip()
+        clean_text = re.sub(r"\[CHECKOUT_ORDER\]\s*[\w\d_]+", "", response_text, flags=re.IGNORECASE).strip()
         if clean_text:
             await update.message.reply_text(clean_text)
         
         from database import order_model
         from services import payos_service
         
-        order = order_model.get_order_by_id(order_id)
+        # The LLM might output '12' or '7658298727_12'
+        if "_" in order_str:
+            order = order_model.get_order_by_name(order_str)
+        else:
+            try:
+                order = order_model.get_order_by_id(int(order_str))
+            except ValueError:
+                order = None
+
         if order and order['total_amount'] > 0:
+            order_id = order['id']
             cart_total = order['total_amount']
             payment_info, order_code = payos_service.create_payment_link(order_id, cart_total, f"Thanh toan don {order_id}")
             

@@ -1,0 +1,4 @@
+.env
+__pycache__/
+*.db
+# project-code/tea_shop.db

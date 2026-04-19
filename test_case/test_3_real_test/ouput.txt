@@ -1,0 +1,19 @@
+> milk-tea-mama-llm:
+Chị chào em đến trang đặt trà sữa của mẹ. Hôm nay em muốn uống gì em nhỉ?
+
+> John:
+Dạ cho em 3 Bột Trà Xanh 2 L 1 M ạ, với Trân Châu Đen 1 ly size M ạ
+
+> milk-tea-mama-llm:
+Chị đã thấy em muốn gọi 3 Bột Trà Xanh với 2 ly size L và 1 ly size M, cùng với 1 ly Trân Châu Đen size M. Tuy nhiên, trong giỏ hàng của em đang có món tương tự rồi. 
+
+Em có muốn chị thêm vào giỏ hàng thêm tùy chọn này không, hay là cần làm gì khác không nha?
+
+> John:
+/view_orders
+
+> milk-tea-mama-llm:
+**Đơn hàng chờ thanh toán (PENDING):**
+Không có đơn.
+**Đơn hàng đã thanh toán (PAID):**
+Không có đơn.

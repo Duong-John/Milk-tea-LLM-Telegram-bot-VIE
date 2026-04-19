@@ -1,0 +1,25 @@
+> User: Cho 1 ly Nước Cốt Dừa size L và 1 Kem Tươi size M.
+> Bot: Em muốn lấy bao nhiêu ly Nước Cốt Dừa size L và bao nhiêu ly Kem Tươi size M nhé?
+
+> User: Nguyễn Ánh Dương chiều nay 3h.
+> Bot: Chị thấy giỏ hàng của em chưa có món nào cả. Em muốn thêm bao nhiêu ly Nước Cốt Dừa size L và bao nhiêu ly Kem Tươi size M trước khi chốt đơn nhé?
+
+> User: Ghi thêm 1 đơn nữa: 1 ly Trà Xoài size M.
+> Bot: Em muốn lấy bao nhiêu ly Trà Xoài size M nha?
+
+> User: Cho bạn Nguyễn Tấn Phát lúc 4h.
+> Bot: Chị thấy mình đã thêm 1 ly Nước Cốt Dừa size L và 1 ly Kem Tươi size M. Giờ em có 1 ly Trà Xoài size M nữa. 
+
+Cho chị xin Tên Người Nhận và Thời gian giao hàng nhé!
+
+> User: /view_orders
+> Bot: Chị kiểm tra thấy em chưa có đơn hàng nào trước đó cả. Vậy giờ em muốn đặt đơn này cho Nguyễn Ánh Dương lúc 3h và Nguyễn Tấn Phát lúc 4h đúng không ạ? Hãy cho chị biết thông tin cụ thể để chị hoàn thành đơn hàng nhé!
+
+> User: Chuyển Kem Tươi từ đơn của Dương sang đơn của Phát giúp.)
+> Bot: Chị xin lỗi nhưng hiện giờ mình vẫn chưa có thông tin cụ thể về đơn hàng để chuyển Kem Tươi từ đơn của Nguyễn Ánh Dương sang đơn của Nguyễn Tấn Phát. 
+
+Em có thể cho chị biết rõ hơn về số lượng các món trong từng đơn nhé! Chị sẽ giúp em sắp xếp lại ngay.
+
+> User: /view_orders
+> Bot: Chị kiểm tra và thấy em chưa có bất kỳ đơn hàng nào cả. Vậy bây giờ em muốn đặt đơn mới cho cả 2 người hay chỉ đặt 1 người thôi? Nếu có cần chuyển món, em nhớ cho chị biết số lượng và thông tin cụ thể nhé!
+

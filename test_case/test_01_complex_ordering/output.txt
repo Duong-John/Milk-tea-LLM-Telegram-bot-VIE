@@ -1,0 +1,28 @@
+> User: Cho 1 ly Nước Cốt Dừa size L và 1 Kem Tươi size M nha
+> Bot: Chị đã thêm 1 ly Nước Cốt Dừa size L và 1 Kem Tươi size M vào giỏ hàng của em rồi nha. Em còn muốn thêm gì nữa không, hay là chốt đơn luôn hả?
+
+> User: Chốt đơn luôn ạ
+> Bot: Cho chị xin Tên Người Nhận và Thời gian giao hàng nhé!
+
+> User: Nguyễn Ánh Dương chiều nay 3h nha
+> Bot: Chị đã lưu lại Đơn Số 15 (chưa thanh toán) cho em nhé. Em muốn lấy link thanh toán luôn không hay để lát nữa ạ?
+
+> User: Cho lập thêm 1 giỏ hàng mới, 1 ly Trà Xoài size M
+> Bot: Chị đã thêm 1 ly Trà Xoài size M vào giỏ hàng mới của em rồi nha. Em còn muốn thêm món gì nữa không, hay là chốt đơn luôn?
+
+> User: Chốt đơn thứ hai này luôn! Bạn Nguyễn Tấn Phát lúc 4h nha
+> Bot: Chị đã lưu lại Đơn Số 16 (chưa thanh toán) cho em nhé. Em muốn lấy link thanh toán luôn không hay để lát nữa ạ?
+
+> User: /view_orders
+> Bot: Em có 2 đơn hàng đang chờ thanh toán nè:
+
+1. **Đơn Số 15**: 1 ly Nước Cốt Dừa (Size L) và 1 Kem Tươi (Size M) - Giao cho Nguyễn Ánh Dương lúc 3h chiều.
+2. **Đơn Số 16**: 1 ly Trà Xoài (Size M) - Giao cho Nguyễn Tấn Phát lúc 4h.
+
+Em muốn hiện mã QR thanh toán cho Đơn số mấy?
+
+> User: Chị ơi, chuyển 1 ly Kem Tươi từ đơn của bạn Dương sang cái đơn của bạn Phát giùm em nhé!
+> Bot: Chị sẽ chuyển 1 ly Kem Tươi từ Đơn Số 15 của bạn Nguyễn Ánh Dương sang Đơn Số 16 của bạn Nguyễn Tấn Phát nha. Chờ chị xíu nhé! 
+
+Thực hiện chuyển món.
+

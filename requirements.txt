@@ -1,0 +1,19 @@
+# Mama AI Tea Shop Bot - Dependencies
+# =====================================
+# Core Telegram Bot framework (includes job-queue for payment polling)
+python-telegram-bot[job-queue]>=21.0,<23.0
+
+# Environment variable loader (.env file support)
+python-dotenv>=1.0,<2.0
+
+# LLM gateway (routes to OpenAI gpt-4o-mini)
+litellm>=1.50,<2.0
+
+# OpenAI SDK (required by litellm for gpt-4o-mini calls)
+openai>=1.0,<3.0
+
+# PayOS Vietnam payment gateway
+payos>=1.0,<2.0
+
+# Lightweight HTTP server (keeps Render free-tier alive)
+flask>=3.0,<4.0

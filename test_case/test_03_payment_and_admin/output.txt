@@ -1,0 +1,9 @@
+> User: Cho 1 ly Trà Sữa Khoai Môn size M
+> Bot: Chị đã thêm 1 ly Trà Sữa Khoai Môn size M vào giỏ hàng cho em rồi nha! Em còn muốn thêm món gì nữa không, hay là mình tiếp tục nhé? 😊
+
+> User: Chốt cho em nha chị, tên Phát 3h chiều
+> Bot: Chị đã lưu lại Đơn Số 17 (chưa thanh toán) cho em nhé. Em muốn lấy link thanh toán luôn không hay để lát nữa ạ? 😊
+
+> User: Dạ tính tiền đơn đấy giùm em
+> Bot: Cho chị xin Tên Người Nhận và Thời gian giao hàng nhé! 😊
+

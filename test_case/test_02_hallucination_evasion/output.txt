@@ -1,0 +1,48 @@
+> User: Dạ cho 1 ly Trà Cà Chua Cốt Dừa size M!
+> Bot: Chị không thấy món "Trà Cà Chua Cốt Dừa" trong menu của mình, em ơi. Em muốn thử món nào khác không, như "Thạch Cà Chua", hay "Nước Cốt Dừa" chẳng hạn? Hay có món gì khác mà em thích không? Nha!
+
+> User: Cho xin lại menu nha
+> Bot: Đây là menu của chị nha em:
+
+1. Trà Sữa Trân Châu Đen (M: 35.000đ, L: 45.000đ)
+2. Trà Sữa Trân Châu Trắng (M: 35.000đ, L: 45.000đ)
+3. Trà Sữa Truyền Thống (M: 30.000đ, L: 40.000đ)
+4. Trà Sữa Khoai Môn (M: 38.000đ, L: 48.000đ)
+5. Trà Sữa Bạc Hà (M: 35.000đ, L: 45.000đ)
+6. Trà Dâu Tây (M: 32.000đ, L: 42.000đ)
+7. Trà Mâm Xôi (M: 32.000đ, L: 42.000đ)
+8. Trà Chanh Leo (M: 30.000đ, L: 40.000đ)
+9. Trà Vải Thiều (M: 33.000đ, L: 43.000đ)
+10. Trà Xoài (M: 32.000đ, L: 42.000đ)
+11. Cà Phê Đen (M: 25.000đ, L: 30.000đ)
+12. Cà Phê Sữa (M: 28.000đ, L: 33.000đ)
+13. Cà Phê Caramel (M: 30.000đ, L: 35.000đ)
+14. Cà Phê Mocha (M: 32.000đ, L: 37.000đ)
+15. Cà Phê Macchiato (M: 27.000đ, L: 32.000đ)
+16. Đá Xay Dâu Tây (M: 35.000đ, L: 45.000đ)
+17. Đá Xay Dừa (M: 35.000đ, L: 45.000đ)
+18. Đá Xay Matcha (M: 38.000đ, L: 48.000đ)
+19. Đá Xay Sôcôla (M: 36.000đ, L: 46.000đ)
+20. Trân Châu Đen (M: 5.000đ, L: 5.000đ)
+21. Trân Châu Trắng (M: 5.000đ, L: 5.000đ)
+22. Thạch Cà Chua (M: 4.000đ, L: 4.000đ)
+23. Thạch Xanh (M: 4.000đ, L: 4.000đ)
+24. Nước Cốt Dừa (M: 6.000đ, L: 6.000đ)
+25. Kem Tươi (M: 8.000đ, L: 8.000đ)
+26. Gelée Khoai Môn (M: 5.000đ, L: 5.000đ)
+27. Bột Trà Xanh (M: 3.000đ, L: 3.000đ)
+
+Em có thấy món nào thích không? Hay là em muốn gọi ly nào từ menu này nha?
+
+> User: Vậy cho 1 ly Bột Trà Xanh size M nha
+> Bot: Chị đã thêm 1 ly Bột Trà Xanh size M vào giỏ hàng của em rồi nha! Em còn muốn thêm món gì khác không? Chị chờ nha!
+
+> User: Lên đơn Nguyễn Ánh Dương, 5h chiều nay
+> Bot: Cho chị xin Tên Người Nhận và Thời gian giao hàng nhé! Chị sẽ lưu lại đơn cho em nha!
+
+> User: À chị ơi, chị huỷ cái Bột Trà Xanh khỏi đơn giúp em với ạ.
+> Bot: Chị đã hủy món Bột Trà Xanh khỏi giỏ hàng của em rồi nha! Em còn muốn thêm món gì khác không, hay là muốn chốt đơn luôn? Chị luôn sẵn sàng giúp đỡ em!
+
+> User: Ủa chị ơi, bộ em còn món Bột Trà Xanh trong giỏ hả? Sao nãy em xoá rồi, chị xoá lại Bột Trà Xanh giùm em!
+> Bot: Chị đã kiểm tra giỏ hàng, nhưng thật ra không còn món Bột Trà Xanh nào trong giỏ của em nữa rồi. Em có muốn thêm món gì khác không, hay chốt đơn luôn? Chị luôn sẵn sàng giúp em nhé!
+

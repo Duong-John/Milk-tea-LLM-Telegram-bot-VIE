@@ -1,0 +1,16 @@
+18/4/2026: Currently, the following issues remain with the system:
+1. When processing payments, the LLM must ask the user for the recipient's full name and the detailed delivery time (which can be adjusted if the customer is busy). Therefore, attributes must be added to the cache and database. Furthermore, a ready status should be added. A function should be added allowing the customer to ask the LLM whether the order has been paid for and whether the order has been prepared by the restaurant.
+
+2. If the customer wants to change the delivery time due to being busy, the LLM can change the delivery time or the recipient's full name as needed.
+
+3. When an order is PAID or PENDING, it should have a name associated with it. Ideally, the keys should be user_id and order_id, and an order_name attribute should be added to that order. The order_name should be randomly generated but not overly complex. If a new order is created, its name should be generated in the cache and retained when copied to the database. Ideally, the name should always be a key, a concatenation of the user_id and order_id strings.
+
+4. Similar to point one, differentiate when a user is adding items to an existing order or creating a new order.
+
+5. Adjust the output format to the screen; for example, when the admin clicks /view_orders, it should still display the dictionary format from the Telegram chat.
+
+6. IMPORTANT: Regarding PAID orders, if a user wants to add items to a paid PAID order, they are currently not allowed to do so. The response should be: "Please place a new order for me so I can manage it more easily." However, if the customer wants to change the pickup time for a PAID order, it is still allowed. For PENDING orders that are not yet paid, allow adding new items. When adding items, specify which items the customer wants to add to which order.
+
+7. Transferring items from one order to another: If a user requests to transfer an item from one order to another, the LLM first identifies the existence of both orders, then determines if the item the user wants to transfer exists in the original order, before transferring it to the destination order.
+
+8. Similarly to points 6 and 7, if a user wants to delete an item from an order, the LLM must also clearly identify which order it is in before searching for that item to avoid confusion.

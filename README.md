@@ -6,7 +6,8 @@
 > **Date:** April 19, 2026  
 
 ---
-
+## 0. Demo Video
+[![Testing Video](Screen.png)](https://youtu.be/8T3F6rGqQl4?si=cKD7Eh3XKk3KC_ZU)
 ## 1. Project Overview
 
 ### 1.1 Original Vision
